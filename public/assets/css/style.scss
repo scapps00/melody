@@ -1,0 +1,67 @@
+$orange: #f9c045;
+$radius: 40px;
+
+body {
+    background-image: url("../img/congruent_pentagon_pink.png");
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    background-color: $orange;
+    color: white;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: $radius;
+    text-align: center;
+    height: 80px;
+}
+
+#melodyImg {
+    width: 100%;
+    border-radius: $radius;
+    border: 10px solid $orange;
+}
+
+.hi {
+    background-color: $orange;
+    color: white;
+    display: block;
+    margin: auto;
+    border-radius: $radius;
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    width: 95%;
+    line-height: 45px;
+    padding: 15px;
+}
+
+#smaller {
+    font-size: 35px;
+}
+
+.buttons {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+
+.but {
+    background-color: $orange;
+    border-radius: $radius;
+}
+
+.update {
+    background-color: $orange;
+    border-radius: $radius;
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
